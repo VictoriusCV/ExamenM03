@@ -101,10 +101,10 @@ btnEasy.addEventListener("click", function () {
     body.style.background = "rgb(23,23,23)"
     body.style.transition = "0s"
     txtMessage.innerHTML = ""
-    btnEasy.style.background = "blue"
-    btnEasy.style.transition = "1s"
-    btnHard.style.background = "rgb(23, 23, 23)"
+
     console.log("----------------------------")
+    btnEasy.classList.toggle("selected")
+    btnHard.classList.remove("selected")
 })
 
 btnHard.addEventListener("click", function () {
@@ -118,8 +118,8 @@ btnHard.addEventListener("click", function () {
     body.style.background = "rgb(23,23,23)"
     body.style.transition = "0s"
     txtMessage.innerHTML = ""
-    btnHard.style.background = "blue"
-    btnHard.style.transition = "1s"
-    btnEasy.style.background = "rgb(23, 23, 23)"
+
     console.log("----------------------------")
+    btnHard.classList.toggle("selected")
+    btnEasy.classList.remove("selected")
 })
