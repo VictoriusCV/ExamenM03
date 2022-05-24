@@ -54,9 +54,9 @@ body
     
 
 }
-#stripe>div:hover
+#selected
 {
-    
+    transition: "1s";
     background-color: rgb(56, 56, 185);
 }
 #stripe
