@@ -54,12 +54,12 @@ body
     
 
 }
-#selected
+.selected
 {
     transition: "1s";
     background-color: rgb(12, 192, 153);
 }
-.stripe
+#stripe
 {
     text-align: center;
     margin: auto;
