@@ -103,7 +103,7 @@ btnEasy.addEventListener("click", function () {
     txtMessage.innerHTML = ""
 
     console.log("----------------------------")
-    btnEasy.classList.toggle("selected")
+    btnEasy.classList.add("selected")
     btnHard.classList.remove("selected")
 })
 
@@ -120,6 +120,6 @@ btnHard.addEventListener("click", function () {
     txtMessage.innerHTML = ""
 
     console.log("----------------------------")
-    btnHard.classList.toggle("selected")
+    btnHard.classList.add("selected")
     btnEasy.classList.remove("selected")
 })
